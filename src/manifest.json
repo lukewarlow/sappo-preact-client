@@ -1,0 +1,9 @@
+{
+  "name": "Sappo",
+  "short_name": "Sappo",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#28a745"
+}

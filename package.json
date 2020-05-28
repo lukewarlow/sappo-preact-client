@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "sappo-preact-client",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "preact build --preload --no-prerender --no-sw",
+    "analyze": "preact build --preload --analyze --no-prerender --no-sw --no-esm",
+    "serve:prod": "sirv build --port 8080 --cors --single",
+    "dev": "preact watch --no-prerender --no-sw"
+  },
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "date-fns": "2.14.0",
+    "preact": "10.4.4",
+    "preact-render-to-string": "5.1.8",
+    "socket.io-client": "2.3.0"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "1.15.2",
+    "preact-cli": "3.0.0-rc.9",
+    "sirv-cli": "1.0.0-next.5",
+    "ts-loader": "6.2.2",
+    "typescript": "3.9.3"
+  }
+}

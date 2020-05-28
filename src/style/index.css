@@ -1,0 +1,18 @@
+.toast-container {
+	z-index: 2;
+}
+
+.toast-position {
+	top: 0;
+	right: 0;
+}
+
+.chatbox-content {
+	height: 600px !important;
+	overflow-y: auto;
+}
+
+.message-box {
+	max-width: 400px;
+	width: fit-content;
+}
